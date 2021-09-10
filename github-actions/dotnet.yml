@@ -1,0 +1,27 @@
+name: main
+
+on:
+  push:
+    tags:
+      - "*"
+
+env:
+  IMAGE_NAME: xcel-tutor
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    - name: .NET - Restore dependencies
+      run: dotnet restore src/AspNetApp/AspNetApp.csproj
+    - name: .NET - Build
+      run: dotnet build --no-restore src/AspNetApp/AspNetApp.csproj
+    - name: .NET - Publish
+      run: dotnet publish src/AspNetApp/AspNetApp.csproj -c Release -o published -p:PublishTrimmed=true -r linux-x64

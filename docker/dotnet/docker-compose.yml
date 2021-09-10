@@ -1,0 +1,10 @@
+version: "x.x"
+
+services:
+
+  app:
+    # depends_on:
+    #  - "database"
+    image: "aspnetapp"
+    volumes:
+      - "./appsettings.json:/app/appsettings.json"
