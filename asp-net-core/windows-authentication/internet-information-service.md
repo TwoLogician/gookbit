@@ -1,8 +1,8 @@
 *Add Roles and Features wizard*
-[](./images/iis-01.png)
+[](https://github.com/TwoLogician/gookbit/raw/master/asp-net-core/images/iis-01.png)
 
 *Site > IIS > Authentication*
-[](./images/iis-02.png)
+[](https://github.com/TwoLogician/gookbit/raw/master/asp-net-core/images/iis-02.png)
 
 *Enable Windows Authentication*
-[](./images/iis-03.png)
+[](https://github.com/TwoLogician/gookbit/raw/master/asp-net-core/images/iis-03.png)
