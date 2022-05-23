@@ -13,7 +13,7 @@ public static class WebApiConfig
 }
 ```
 
-*camelCase*
+*JSON camelCase*
 ```csharp
 public static class WebApiConfig
 {
