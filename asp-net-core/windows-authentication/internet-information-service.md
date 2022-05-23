@@ -1,8 +1,8 @@
-*Add Roles and Features wizard*
+#### *Add Roles and Features wizard*
 ![](./images/iis-01.png)
 
-*Site > IIS > Authentication*
+#### *Site > IIS > Authentication*
 ![](./images/iis-02.png)
 
-*Enable Windows Authentication*
+#### *Enable Windows Authentication*
 ![](./images/iis-03.png)
