@@ -6,11 +6,10 @@
     - "db"
 ```
 
-*localtime & timezone*
+*timezone*
 ```yaml
-  volumes:
-    - "/etc/localtime:/etc/localtime:ro"
-    - "/etc/timezone:/etc/timezone:ro"
+  environment:
+    TZ: "Asia/Bangkok"
 ```
 
 *Start containers automatically*
